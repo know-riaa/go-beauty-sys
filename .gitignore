@@ -1,0 +1,20 @@
+# Backend
+backend/.mvn/
+backend/target/
+backend/application-secrets.properties
+
+# Frontend
+frontend/node_modules/
+frontend/.env.local
+frontend/build/
+
+# Infrastructure
+infrastructure/.terraform/
+infrastructure/*.tfstate
+infrastructure/*.tfvars
+
+# IDE
+.idea/
+.vscode/settings.json
+*.iml
+*.DS_Store
